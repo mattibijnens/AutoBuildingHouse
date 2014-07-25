@@ -1,0 +1,8 @@
+name: Auto-House
+main: me.Matti.Sjabloon.YTRater
+version: 1.1
+description: >
+             House Plugin!.
+commands:
+  MattiBuild:
+    description: Test!
