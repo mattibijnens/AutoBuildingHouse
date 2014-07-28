@@ -70,8 +70,7 @@ public class Utilities {
 		//block.setTypeIdAndData(type.getId(), data, false);
 		
 		if(type != Material.AIR && type != null){
-		Player p = Bukkit.getPlayer("sander_blaadjes");
-		p.sendMessage(ChatColor.RED + "Debug: " + type.getId());
+
 		block.setType(type);
 		
 		block.setData(data);
