@@ -33,7 +33,8 @@ public class Building {
 	public Schematic getSchematic(){
 		return this.schematic;
 	}
-
+	//StupidChange
+	
 	public static void build(final Location loc){
 		final HashMap<Block, Integer> blocks = new HashMap<Block, Integer>();
 		List<Block> allBlocks = new ArrayList<Block>();
